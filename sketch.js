@@ -7,6 +7,7 @@ var engine, world;
 var box1, pig1,pig3;
 var backgroundImg,platform;
 var bird, slingshot;
+var platform;
 
 var gameState = "onSling";
 
@@ -21,7 +22,8 @@ function setup(){
 
 
     ground = new Ground(600,height,1200,20);
-    platform = new Ground(150, 305, 300, 170);
+   platform = new Ground(200,350,300,300);
+
 
     box1 = new Box(700,320,70,70);
     box2 = new Box(920,320,70,70);
